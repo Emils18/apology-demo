@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You...</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- INTRO PAGE -->
+    <div class="page intro-page">
+        <h1 id="intro-text"></h1>
+        <button id="intro-btn" class="btn">Continue 💖</button>
+    </div>
+
+    <!-- LANDING PAGE -->
+    <div class="page landing-page" style="display:none;">
+        <h1>💗 I'm Sorry 💗</h1>
+        <p>If ing ato akong decision, pindota ang start haha</p>
+        <button id="start-btn" class="btn">Start</button>
+    </div>
+
+    <!-- QUESTION PAGE -->
+    <div class="page question-page" style="display:none; position: relative; height: 300px;">
+        <h2>Pede paba tah magkaayus?</h2>
+        <button class="btn yes-btn">Yes 💖</button>
+        <button class="btn no-btn" id="noBtn">No 😭</button>
+    </div>
+
+    <!-- OUTRO PAGE -->
+    <div class="page outro-page" style="display:none;">
+        <h1 id="outro-title"></h1>
+        <p id="outro-message"></p>
+        <div id="heart-animation"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
